@@ -61,6 +61,7 @@ public class PI2GO_GUI extends javax.swing.JFrame
         jMenu7 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("PI2GO Robot");
 
         jPanel1.setLayout(new java.awt.GridLayout(1, 2));
 
@@ -225,18 +226,18 @@ public class PI2GO_GUI extends javax.swing.JFrame
         jLabel4.setText("Relative Moves:");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-        gridBagConstraints.insets = new java.awt.Insets(5, 12, 5, 12);
+        gridBagConstraints.insets = new java.awt.Insets(8, 12, 8, 12);
         jPanel2.add(jLabel4, gridBagConstraints);
 
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setText("Send To Id:");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-        gridBagConstraints.insets = new java.awt.Insets(5, 22, 5, 22);
+        gridBagConstraints.insets = new java.awt.Insets(8, 22, 8, 22);
         jPanel2.add(jLabel5, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-        gridBagConstraints.insets = new java.awt.Insets(5, 0, 5, 0);
+        gridBagConstraints.insets = new java.awt.Insets(8, 0, 8, 0);
         jPanel2.add(jTextField2, gridBagConstraints);
 
         jButton7.setText("0 Grad");
@@ -244,7 +245,7 @@ public class PI2GO_GUI extends javax.swing.JFrame
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 1;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-        gridBagConstraints.insets = new java.awt.Insets(5, 0, 5, 0);
+        gridBagConstraints.ipady = 16;
         jPanel2.add(jButton7, gridBagConstraints);
 
         jButton8.setText("270 Grad");
@@ -252,7 +253,7 @@ public class PI2GO_GUI extends javax.swing.JFrame
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 2;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-        gridBagConstraints.insets = new java.awt.Insets(5, 0, 5, 0);
+        gridBagConstraints.ipady = 16;
         jPanel2.add(jButton8, gridBagConstraints);
 
         jButton9.setText("90 Grad");
@@ -260,7 +261,7 @@ public class PI2GO_GUI extends javax.swing.JFrame
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 2;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-        gridBagConstraints.insets = new java.awt.Insets(5, 0, 5, 0);
+        gridBagConstraints.ipady = 16;
         jPanel2.add(jButton9, gridBagConstraints);
 
         jButton10.setText("180 Grad");
@@ -268,7 +269,7 @@ public class PI2GO_GUI extends javax.swing.JFrame
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 3;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-        gridBagConstraints.insets = new java.awt.Insets(5, 0, 5, 0);
+        gridBagConstraints.ipady = 16;
         jPanel2.add(jButton10, gridBagConstraints);
 
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -277,14 +278,14 @@ public class PI2GO_GUI extends javax.swing.JFrame
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 4;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-        gridBagConstraints.insets = new java.awt.Insets(5, 0, 5, 0);
+        gridBagConstraints.insets = new java.awt.Insets(8, 0, 8, 0);
         jPanel2.add(jLabel6, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 4;
         gridBagConstraints.gridwidth = 2;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-        gridBagConstraints.insets = new java.awt.Insets(5, 0, 5, 0);
+        gridBagConstraints.insets = new java.awt.Insets(8, 0, 8, 0);
         jPanel2.add(jSlider1, gridBagConstraints);
 
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -293,7 +294,7 @@ public class PI2GO_GUI extends javax.swing.JFrame
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 5;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-        gridBagConstraints.insets = new java.awt.Insets(5, 0, 5, 0);
+        gridBagConstraints.insets = new java.awt.Insets(8, 0, 8, 0);
         jPanel2.add(jLabel7, gridBagConstraints);
 
         jButton11.setText("Move To (X|Y)");
@@ -301,7 +302,7 @@ public class PI2GO_GUI extends javax.swing.JFrame
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 5;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-        gridBagConstraints.insets = new java.awt.Insets(5, 0, 5, 0);
+        gridBagConstraints.insets = new java.awt.Insets(8, 0, 8, 0);
         jPanel2.add(jButton11, gridBagConstraints);
 
         jButton12.setText("Home");
@@ -310,7 +311,8 @@ public class PI2GO_GUI extends javax.swing.JFrame
         gridBagConstraints.gridy = 6;
         gridBagConstraints.gridheight = 3;
         gridBagConstraints.fill = java.awt.GridBagConstraints.VERTICAL;
-        gridBagConstraints.insets = new java.awt.Insets(5, 0, 5, 0);
+        gridBagConstraints.ipadx = 17;
+        gridBagConstraints.insets = new java.awt.Insets(8, 0, 8, 0);
         jPanel2.add(jButton12, gridBagConstraints);
 
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
@@ -319,13 +321,13 @@ public class PI2GO_GUI extends javax.swing.JFrame
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 6;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-        gridBagConstraints.insets = new java.awt.Insets(5, 0, 5, 0);
+        gridBagConstraints.insets = new java.awt.Insets(8, 0, 8, 0);
         jPanel2.add(jLabel8, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 6;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-        gridBagConstraints.insets = new java.awt.Insets(5, 0, 5, 0);
+        gridBagConstraints.insets = new java.awt.Insets(8, 0, 8, 0);
         jPanel2.add(jTextField3, gridBagConstraints);
 
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
@@ -334,13 +336,13 @@ public class PI2GO_GUI extends javax.swing.JFrame
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 8;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-        gridBagConstraints.insets = new java.awt.Insets(5, 0, 5, 0);
+        gridBagConstraints.insets = new java.awt.Insets(8, 0, 8, 0);
         jPanel2.add(jLabel9, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 8;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-        gridBagConstraints.insets = new java.awt.Insets(5, 0, 5, 0);
+        gridBagConstraints.insets = new java.awt.Insets(8, 0, 8, 0);
         jPanel2.add(jTextField4, gridBagConstraints);
 
         jPanel1.add(jPanel2);
